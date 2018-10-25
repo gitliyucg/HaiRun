@@ -1,0 +1,67 @@
+/*-----------------------------------------------------项目介绍----------------------------------------------------*/
+.invest-introduce{
+  width: 100%;
+  height: 160px;
+  background: #ffffff;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.invest-introduce h3{
+  font-size: 18px;
+  padding: 5px 20px;
+  border-bottom: 1px solid #f2f4f5;
+}
+.invest-introduce-wrap{
+  padding: 25px 40px;
+  font-size: 16px;
+}
+/*-----------------------------------------------------团队阵容----------------------------------------------------*/
+.invest-Lineup{
+  width: 100%;
+  height: 160px;
+  background: #ffffff;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.invest-Lineup h3{
+  font-size: 18px;
+  padding: 5px 20px;
+  border-bottom: 1px solid #f2f4f5;
+}
+.invest-Lineup-wrap{
+  padding: 25px 40px;
+  font-size: 16px;
+}
+.invest-Lineup-wrap p{
+  height: 30px;
+  line-height: 30px;
+}
+.invest-Lineup-wrap p .title{
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+}
+.invest-Lineup-wrap p:nth-of-type(1){
+  border-bottom: 1px solid #f2f4f5;
+}
+/*-----------------------------------------------------发行速度----------------------------------------------------*/
+.invest-speed{
+  width: 100%;
+  background: #ffffff;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.invest-speed h3{
+  font-size: 18px;
+  padding: 5px 20px;
+  border-bottom: 1px solid #f2f4f5;
+}
+.invest-speed-wrap{
+  padding: 25px 40px;
+  font-size: 16px;
+}
+.invest-speed-wrap ul li{
+  list-style-type: disc;
+  height: 30px;
+  line-height: 30px;
+}

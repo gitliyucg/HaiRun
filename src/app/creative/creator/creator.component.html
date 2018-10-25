@@ -1,0 +1,96 @@
+<div style="z-index: 999999999999999999" class="float-video" *ngIf="show">
+  <h3 (click)="show = false">X</h3>
+  <!--<video src=""-->
+  <!--autoplay controls width="1200" height="675"></video>-->
+  <embed src='http://player.youku.com/player.php/sid/XMTQ1NjIyNTEwNA==/v.swf' allowFullScreen='true' quality='high' width='1200' height='675' align='middle' allowScriptAccess='always' type='application/x-shockwave-flash' />
+</div>
+<div class="marginTop">
+  <img src="../../assets/img/creator.jpg" width="100%" height="320" alt="">
+  <div class="content-body facs">
+    <img class="" src="//i2.ergengtech.com/business/avatar/2016/09/14/a59d549fc540dccdb03738129fa101e3.jpg_avatar" alt="">
+    <div>
+      <p class="name">周磊</p>
+      <p class="position">导演</p>
+    </div>
+  </div>
+</div>
+<div class="content-body works-content">
+  <div class="menu">
+    <ul>
+      <li><a class="oTabs tabs" href="javaScript:;">作品</a></li>
+      <li><a class="oTabs" href="javaScript:;">个人简介</a></li>
+    </ul>
+  </div>
+  <div class="works oBox">
+    <div class="case-show">
+      <ul>
+        <li (click)="isShow()">
+          <div class="case-info">
+            <a>
+              <div class="video-play-btn"></div>
+              <img src="//i3.ergengtech.com/media/2017/04/121491981215492790.jpg_vcover" alt="我的戏剧史">
+            </a>
+          </div>
+          <div class="case-bottom">
+            <span>我的戏剧史</span>
+          </div>
+        </li>
+        <li (click)="isShow()">
+          <div class="case-info">
+            <a>
+              <div class="video-play-btn"></div>
+              <img src="//i3.ergengtech.com/business/project/2017/10/13/05b70db664f3285b2a1d012a062be41e.jpg_vcover" alt="深海料理人">
+            </a>
+          </div>
+          <div class="case-bottom">
+            <span>深海料理人</span>
+          </div>
+        </li>
+        <li (click)="isShow()">
+          <div class="case-info">
+            <a>
+              <div class="video-play-btn"></div>
+              <img src="//i1.ergengtech.com/media/2016/12/13/b21d33024337472105c88e0484d390f0/00004.jpg_vcover" alt="唱片店守望者">
+            </a>
+          </div>
+          <div class="case-bottom">
+            <span>唱片店守望者</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="personal oBox" style="display: none">
+    <div style="display: block;">
+      <div class="information">
+        <ul>
+          <li>
+            <h3><i></i>  基本信息</h3>
+            <div class="list">
+              <p><span class="p1">职务</span><span>导演</span></p>
+              <p><span class="p1">地区</span><span>中国 北京</span></p>
+              <p><span class="p1">所属单位</span><span>杭州二更网络科技有限公司</span></p>
+              <p><span class="p1">擅长领域</span><span>其他</span></p>
+            </div>
+          </li>
+          <li>
+            <h3><i></i>  个人简介</h3>
+            <div class="list">
+              <p class="article">喜欢被别人打动的感觉，希望通过视频打动别人。</p>
+            </div>
+          </li>
+          <li>
+            <h3><i></i>  从业经历</h3>
+            <div class="list">额……不怎么靠谱的尝试过很多不怎么靠谱的工作，导游、企宣、记者、图书宣传、撰稿、策划、少儿主持、电视编导……</div>
+          </li>
+          <li>
+            <h3><i></i>  获奖经历</h3>
+            <div class="list">
+              <p class="article">没有诶、、做自己想做的事就好了~~</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

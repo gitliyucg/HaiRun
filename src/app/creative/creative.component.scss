@@ -1,0 +1,62 @@
+/*-----------------------------------------------------创作人-----------------------------------------------------------------*/
+.content-body{
+  background: #ffffff;
+  border-radius: 5px;
+}
+.new-creators-one {
+  width: 1200px;
+  overflow: hidden;
+  padding-top: 50px
+}
+.new-creators-one ul {
+  width: 1200px;
+}
+.new-creators-one ul li {
+  width: 380px; height: 134px;
+  border: 1px solid #e5e5e5;
+  float: left;
+  margin: 0 10px 15px 10px;
+  zoom: 1; overflow: hidden;
+}
+.new-creators-one ul li:hover {
+  background: #f3f3f3;
+  .box2 div strong{
+    color: #cd0623;
+  }
+}
+.new-creators-one ul li a {
+  display: block;
+  width: 380px;
+  height: 134px;
+}
+.new-creators-one ul li .box1 {
+  width: 120px;
+  height: 120px;
+  -moz-border-radius: 60px;
+  -webkit-border-radius: 60px;
+  border-radius: 60px;
+  margin: 8px 25px 0 20px;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: middle;
+}
+.new-creators-one ul li .box1 img {
+  width: 120px;
+  height: 120px;
+}
+.new-creators-one ul li .box2{
+  display: inline-block;
+  color: black;
+}
+.new-creators-one ul li .box2 div strong{
+  font-size: 16px;
+}
+.new-creators-one ul li .box2 span{
+  display: inline-block;
+  color: #656565;
+  font-size: 14px;
+}
+.new-creators-one ul li .box2 span:nth-of-type(2){
+  width: 240px;
+  overflow: hidden;
+}

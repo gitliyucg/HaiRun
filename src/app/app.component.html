@@ -1,0 +1,68 @@
+<div class="headerBox header-fixed">
+  <div class="cm-w1200">
+    <a class="logo"></a>
+    <ul class="navBox">
+      <li class="nav-menu">
+        <a routerLinkActive="class" routerLink="/index" class="nav-font">首页</a>
+      </li>
+      <li class="nav-menu dropdown">
+        <a routerLinkActive="class" routerLink="/about" class="nav-font dropdown-toggle" data-toggle="dropdown">
+          企业介绍<b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a href="javaScript:;">电影创业联盟</a></li>
+          <li><a href="javaScript:;">电影创业联盟</a></li>
+          <li><a href="javaScript:;">电影创业联盟</a></li>
+          <li><a href="javaScript:;">电影创业联盟</a></li>
+          <li><a href="javaScript:;">电影创业联盟</a></li>
+        </ul>
+      </li>
+      <li class="nav-menu dropdown">
+        <a routerLinkActive="class" routerLink="/movies" class="nav-font dropdown-toggle" data-toggle="dropdown">
+          影视<b class="caret"></b>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a href="javaScript:;">电影创业联盟</a></li>
+          <li><a href="javaScript:;">电影创业联盟</a></li>
+          <li><a href="javaScript:;">电影创业联盟</a></li>
+          <li><a href="javaScript:;">电影创业联盟</a></li>
+          <li><a href="javaScript:;">电影创业联盟</a></li>
+        </ul>
+      </li>
+      <li class="nav-menu">
+        <a routerLinkActive="class" routerLink="/news" class="nav-font">新闻</a>
+      </li>
+      <li class="nav-menu">
+        <a routerLinkActive="class" routerLink="/invest" class="nav-font">招商</a>
+      </li>
+      <li class="nav-menu">
+        <a routerLinkActive="class" routerLink="creative" class="nav-font">创作人</a>
+      </li>
+      <li class="nav-menu">
+        <a routerLinkActive="class" routerLink="/contact" class="nav-font">联系我们</a>
+      </li>
+    </ul>
+  </div>
+</div>
+<router-outlet (deactivate)="onDeactivate()"></router-outlet>
+
+<div class="footBox">
+  <div class="footTop">
+    <a>关于海润</a>
+    <a>官方微博</a>
+    <a>联系方式</a>
+    <a>招聘信息</a>
+    <a>投资者关系</a>
+  </div>
+  <div class="clear footBottom">
+    <span style="color: #999">华夏海润影业（北京）有限公司</span>
+    <span>Copyright@ 2000-2018 海润影视制作有限公司 版权所有</span>
+    <!--<span><a href="http://www.miibeian.gov.cn" target="_blank">京ICP备06042475号 京ICP证050023号</a>-->
+        <!--信息网络传播视听节目许可证0108231号 京公网安备11010102000025号</span>-->
+  </div>
+</div>
+<!--返回顶部-->
+<a id="top">
+  <img class="top-img" src="../assets/img/top.png" alt="">
+  <div class="top-hover">顶部</div>
+</a>

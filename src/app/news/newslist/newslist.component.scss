@@ -1,0 +1,176 @@
+.content-body:after{
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+}
+.newsinfoBox{
+  float:left;
+  margin-top:60px;
+  width:880px;
+  height:auto
+}
+.newsMaintitle{
+  width:100%;
+  height:30px;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  font-size:22px;
+  font-weight:bold;
+  line-height:30px;
+  color:#323232;
+  text-align:center
+}
+.newstitle{
+  margin-top:16px;
+  width:100%;
+  height:18px;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  font-size:18px;
+  line-height:18px;
+  color:#656565
+}
+.newstime{
+  float:left;
+  margin-top:20px;
+  margin-bottom:20px;
+  width:100%;
+  height:14px;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  font-size:14px;
+  line-height:14px;
+  color:#a2a2a2;
+  text-align:center
+}
+.newstime span{
+  margin-right:40px
+}
+.newsinfoimg{
+  float:left;
+  display:block;
+  margin-top:38px;
+  width:100%;
+  height:417px;
+  overflow:hidden
+}
+.newsinfoFont{
+  display:block;
+  float:left;
+  margin:15px 10px 0 10px;
+  width:100%;
+  font-size:16px;
+  line-height:28px;
+  color:#656565;
+  padding-bottom:2px
+}
+.newsinfoFont img{
+  max-width:98%
+}
+.newsinfoFont p{
+  max-width:100%;
+  margin-bottom:28px;
+  font-size:16px;
+  line-height:28px
+}
+.zaiyaoInfo{
+  font-size:14px;
+  padding:10px;
+  background:#f3f3f3;
+  width:100%;
+  margin:0 auto;
+  line-height:28px
+}
+.zaiyaoInfo p{
+  margin-bottom:28px;
+  word-wrap:break-word
+}
+.newsinfoR{
+  float:right;
+  margin:40px 0 0 20px;
+  width:280px
+}
+.recommendNewsBox{
+  float:right;
+  margin-top:20px
+}
+.titleRight{
+  font-size:30px;
+  font-weight:bold;
+  line-height:30px;
+  color:#323232
+}
+.recommendNews{
+  display:block;
+  float:left;
+  margin-top:12px;
+  width:270px;
+  height:14px;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  font-size:14px;
+  color:#323232;
+  line-height:14px
+}
+.companyNewsimg3{
+  display:block;
+  float:left;
+  margin-top:20px;
+  width:280px;
+  height:470px;
+  overflow:hidden
+}
+.companyNewsimg3 img{
+  width:100%;
+  height:100%;
+  overflow:hidden
+}
+.recommendMovieBox{
+  float:left;
+  margin-top:30px;
+  width:280px
+}
+.recommendMovie li{
+  display:block;
+  float:left;
+  margin-top:20px;
+  width:280px;
+  height:164px;
+  overflow:hidden
+}
+.recommendMovieImg{
+  float:left;
+  width:120px;
+  height:164px;
+  overflow:hidden
+}
+.recommendMovieImg img{
+  width:100%;
+  height:100%;
+  overflow:hidden
+}
+.recommendMovietitle{
+  float:left;
+  display:block;
+  margin-left:12px;
+  width:148px;
+  height:40px;
+  overflow:hidden;
+  line-height:20px;
+  font-size:16px;
+  color:#212121
+}
+.recommendMoviesubtitle{
+  float:left;
+  display:block;
+  margin:10px 0 0 12px;
+  width:148px;
+  height:60px;
+  overflow:hidden;
+  line-height:20px;
+  font-size:12px;
+  color:#a2a2a2
+}
+

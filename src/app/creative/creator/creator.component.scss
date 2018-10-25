@@ -1,0 +1,181 @@
+/*---------------------------------------------------------头像-------------------------------------------------------------*/
+.facs{
+  position: relative;
+  margin-top: -75px;
+}
+.facs img{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  vertical-align: bottom;
+}
+.facs div{
+  display: inline-block;
+}
+.facs div .name{
+  font-size: 20px;
+  color: black;
+}
+.facs div .position{
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+/*---------------------------------------------------------作品及简介-------------------------------------------------------------*/
+.works-content{
+  margin-top: 30px;
+  background-color: #ffffff;
+}
+.menu{
+  width: 300px;
+  margin: 0 auto;
+  height: 40px;
+}
+.menu ul{
+  width: 100%;
+  height: 100%;
+  float: right;
+}
+.menu ul li{
+  width: 150px;
+  line-height: 40px;
+  float: left;
+  text-align: center;
+}
+.menu ul li a{
+  box-sizing:border-box;
+  display: inline-block;
+  width: 100%;
+  color: #666;
+  font-size: 22px;
+}
+.menu ul li a:hover{
+  border-top: 2px solid #cd0623;
+  font-weight: 700;
+}
+.works-content .menu ul li .tabs {
+  border-top: 2px solid #cd0623;
+  color: #cd0623;
+  font-weight: 700;
+}
+/*---------------------------------------------------------作品-------------------------------------------------------------*/
+.case-show {
+  width: 1140px;
+  min-height: 100px;
+  margin: 20px auto 0 auto;
+}
+.case-show ul {
+  width: 1200px;
+}
+.case-show ul:after{
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+}
+.case-show ul li {
+  width: 345px;
+  position: relative;
+  border: 1px solid #ddd;
+  float: left;
+  margin: 0 48px 40px 0;
+}
+.case-show ul li:hover{
+  cursor: pointer;
+  .case-bottom span{
+    color: #cd0623;
+  }
+}
+.case-show ul li .case-info img {
+  width: 345px;
+  height: 194px;
+}
+.case-show ul li .case-info {
+  position: relative;
+  cursor: pointer
+}
+.video-play-btn {
+  width: 35px!important;
+  height: 35px!important;
+  border:transparent!important;
+  position: absolute;
+  left: 50%;
+  margin-left: -17px;
+  top:50%;
+  margin-top: -17px;
+  background: url("../../../assets/img/video_playicon.png")
+}
+.case-show ul li .case-bottom {
+  height: 20px;
+  line-height: 20px;
+  color: #666;
+  margin: 5px 10px 5px 10px;
+}
+.case-show ul li .case-bottom span{
+  font-size: 14px;
+}
+/*浮动视频*/
+.float-video{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0; left: 0;
+  background-color: rgba(0,0,0,0.4);
+  z-index: 999999999999999999999999999999999999 !important;
+}
+.float-video h3{
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  font-size: 48px;
+  color: #ffffff;
+  cursor: pointer;
+}
+.float-video embed{
+  position: absolute;
+  left: 50%;
+  margin-left: -600px;
+  top: 50%;
+  margin-top: -340px;
+}
+/*--------------------------------------------------------个人简介--------------------------------------------------------------*/
+.information {
+  margin: 0 30px;
+}
+.information ul li {
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0;
+  margin: 20px 0;
+}
+.information ul li h3 {
+  width: 160px;
+  height: 35px;
+  line-height: 35px;
+  font-size: 16px;
+}
+.information ul li h3 i{
+  display: inline-block;
+  width: 8px;height: 8px;
+  background: url(../../../assets/img/icon_dot_1.png);
+  vertical-align: middle;
+}
+.information ul li .list {
+  margin-left: 160px;
+  color: #999;
+  padding-top: 5px;
+}
+.information ul li .list p {
+  line-height: 30px;
+  zoom: 1;
+  overflow: hidden;
+  margin-bottom: 5px;
+  text-align: justify
+}
+.information ul li .list p.article {
+  line-height: 24px;
+}
+.information ul li .list .p1 {
+  display: inline-block;
+  width: 100px;
+  color: #777;
+}

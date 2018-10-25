@@ -1,0 +1,126 @@
+
+.headerBox{
+  transition: 0.5s ease-in-out;
+  width:100%;
+  height:60px;
+  position:relative;
+  z-index:1111;
+  background: #ffffff;
+}
+//.headerBoxBg{
+//  transition: 0.5s ease-in-out;
+//  background: #ffffff;
+//}
+.headerBox .cm-w1200 .navBox .class{
+  color: #d0041f;
+}
+.cm-w1200{
+  width:1200px;
+  margin:0 auto
+}
+.header-fixed{
+  position:fixed;
+  top:0;left:0;
+  width:100%
+}
+.logo{
+  float:left;
+  display:block;
+  height:35px;
+  width:127px;
+  margin:12px 0;
+}
+.navBox{
+  display:block;
+  float:right;
+  height:60px;
+  font-size:16px;
+  line-height:60px
+}
+.navBox li{
+  display:block;
+  float:left;
+  margin-left:50px;
+  position:relative
+}
+.navBox>li>a.nav-font{
+  display:block;
+  float:left;
+  color:#323232
+}
+.navBox>li>a.current, .navBox li a.nav-font:hover{
+  color:#d0041f
+}
+/*---------------------------------------------------------bootstrap修改-------------------------------------------------------------*/
+.dropdown-menu{
+  margin-top: 0;
+}
+.dropdown-menu li{
+  margin-left: 10px;
+}
+/*--------------------------------------------------------底部-------------------------------------------------------------*/
+.footBox{
+  width: 1200px;
+  margin:0 auto;
+  border-top:1px solid #e5e5e5;
+  font-size:14px;
+  text-align:center;
+  color:#323232;
+  padding:36px 0
+}
+.footBox a{
+  padding:0 8px;
+  color:#323232
+}
+.footBox span{
+  display:block
+}
+.footTop{
+  text-align:center;
+  color:#323232
+}
+.footBottom{
+  margin:0 auto;
+  width:800px;
+  line-height:20px;
+  padding-top:27px;
+  color:#999
+}
+.footBottom span{
+  display:block;
+  text-align:center
+}
+.footBottom span a{
+  color:#999
+}
+.footBox a:hover{
+  color:#cd0623
+}
+/*-------------------------------------------------------返回顶部---------------------------------------------------------------*/
+#top{
+  position: fixed;
+  right: 50px;
+  bottom: 200px;
+  width: 40px;
+  height: 40px;
+  border-radius: 4px;
+  overflow: hidden;
+  display: none;
+
+}
+.top-img{
+  width: 40px;
+  height: 42px;
+}
+#top:hover{
+  .top-img{
+    display: none !important;
+  }
+  .top-hover{
+    width: 40px;height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: #ffffff;
+    background: #cd0623;
+  }
+}

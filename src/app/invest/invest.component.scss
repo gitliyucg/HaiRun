@@ -1,0 +1,69 @@
+.invest-content{
+  display: inline-block;
+  width: 370px;
+  margin: 20px 13.8px;
+  cursor: pointer;
+}
+.invest-content:hover{
+  .invest-content-img img{
+    transform:scale(1.2);//设置缩放比例
+    -ms-transform:scale(1.2);
+    -webkit-transform:scale(1.2);
+    -o-transform:scale(1.2);
+    -moz-transform:scale(1.2);
+  }
+  box-shadow: 0 3px 1px #ddd;
+}
+.invest-content-img{
+  width: 370px;
+  height: 208px;
+  overflow: hidden;
+}
+.invest-content-img img{
+  transition: all 0.8s;
+}
+.invest-content-wrap{
+  width: 370px !important;
+  background: #ffffff;
+}
+.invest-content-wrap .invest-content-item{
+  padding: 5px 15px 10px 15px;
+}
+.invest-content-wrap .invest-content-item .title{
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  width: 240px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.invest-content-wrap .invest-content-item .baoming {
+  display: inline-block;
+  width: 60px;
+  height: 20px;
+  background: #008af5;
+  text-align: center;
+  line-height: 20px;
+  border-radius: 3px;
+  color: #ffffff;
+  margin-left: 30px;
+}
+.invest-content-wrap .invest-content-item .about-wrap{
+  margin-top: 20px;
+  color: #999;
+  margin-bottom: 20px;
+}
+.invest-content-wrap .specific{
+  padding: 0 15px;
+  width: 100%;
+  height: 40px;
+  background: #f3f7fb;
+  line-height: 40px;
+}
+.invest-content-wrap .specific p{
+  width: 168px;
+  font-size: 15px;
+  display: inline-block;
+}

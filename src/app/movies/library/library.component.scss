@@ -1,0 +1,205 @@
+.marginTop{
+  background: #ffffff !important;
+}
+/*标题*/
+.titleBox{
+  margin:20px auto 0;
+  width:100%;
+  height:30px;
+  padding-bottom:12px;
+  color:#323232;
+  border-bottom:1px solid #a4a4a4;
+  zoom: 1;
+}
+.titleBox:after {
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+}
+.titleMain{
+  float:left;
+  display:block;
+  font-size:30px;
+  line-height:30px
+}
+.morefont{
+  float:right;
+  margin-top:16px;
+  font-size:14px;
+  line-height:14px;
+  font-weight:bold;
+  color:#323232
+}
+/*----------------------------------------------------------新片速递------------------------------------------------------------*/
+.newsTop{
+  margin:0 auto;
+  padding-bottom:20px;
+  width:1200px;
+  overflow:hidden
+}
+.newsTop img{
+  width:100%;
+  height:100%;
+  overflow:hidden
+}
+.newsTopL{
+  position:relative;
+  float:left;
+  margin:40px 20px 0 0;
+  width:900px;
+  height:506px;
+  overflow:hidden
+}
+.newsTopL span{
+  position:absolute;
+  left:20px;
+  bottom:20px;
+  z-index:1;
+  width:860px;
+  overflow:hidden;
+  color:#fff;
+  font-size:30px;
+  font-weight:bold
+}
+.newsTopR{
+  float:right;
+  margin-top:24px;
+  width:280px
+}
+.newsTopR a{
+  position:relative;
+  float:left;
+  margin-top:16px;
+  width:280px;
+  height:158px;
+  overflow:hidden
+}
+.newsTopR a span{
+  position:absolute;
+  left:10px;
+  bottom:10px;
+  color:#fff;
+  width:260px;
+  overflow:hidden;
+  font-size:14px;
+  font-weight:bold
+}
+/*----------------------------------------------------------片库------------------------------------------------------------*/
+/*分类*/
+.movieYear{
+  margin-top:10px;
+  margin-bottom:5px;
+  padding-left:0px
+}
+.movieYear span{
+  padding-left:0px;
+  padding-right:20px
+}
+.movieYear a:link{
+  color:black;
+}
+.movieClass{
+  margin-top:10px;
+  margin-bottom:20px;
+  padding-left:0px
+}
+.movieClass span{
+  padding-left:0px;
+  padding-right:20px
+}
+.movieClass a:link{
+  color:black;
+}
+.movieCont a.movieInfo:hover{
+  position:relative;
+  box-shadow:-1px -1px 0.625vw 0.3125vw #e5e5e5
+}
+.movieCont{
+  zoom: 1;
+}
+.movieCont:after{
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+}
+.movieInfo{
+  float:left;
+  margin:20px 0 0 20px;
+  background:#fff;
+  width:224px;
+  height:364px
+}
+.movieInfoImg{
+  width:224px;
+  height:306px;
+  overflow:hidden
+}
+.movieInfoMainstitle{
+  margin:0 10px;
+  height:30px;
+  font-size:16px;
+  color:#212121;
+  line-height:30px;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis
+}
+.movieInfotitle{
+  margin:0 10px;
+  height:16px;
+  line-height:16px;
+  font-size:12px;
+  color:#a2a2a2;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis
+}.movieCont a.movieInfo:hover{
+   position:relative;
+   box-shadow:-1px -1px 0.625vw 0.3125vw #e5e5e5
+ }
+.movieCont{
+  zoom: 1;
+}
+.movieCont:after{
+  content: '';
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+}
+.movieInfo{
+  float:left;
+  margin:20px 0 0 20px;
+  background:#fff;
+  width:224px;
+  height:364px
+}
+.movieInfoImg{
+  width:224px;
+  height:306px;
+  overflow:hidden
+}
+.movieInfoMainstitle{
+  margin:0 10px;
+  height:30px;
+  font-size:16px;
+  color:#212121;
+  line-height:30px;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis
+}
+.movieInfotitle{
+  margin:0 10px;
+  height:16px;
+  line-height:16px;
+  font-size:12px;
+  color:#a2a2a2;
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis
+}

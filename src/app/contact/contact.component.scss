@@ -1,0 +1,47 @@
+.top{
+  background: url(../../assets/img/about_banner.jpg) 0 0 no-repeat;
+  background-size: cover;
+  height: 116px;
+}
+.content-body{
+  width: 1200px;
+  margin: 0 auto;
+}
+.top i {
+  display: inline-block;
+  width: 70px;
+  height: 70px;
+  margin-top: 23px;
+  background: url(../../assets/img/about_page_icon_content.svg);
+  vertical-align: top;
+}
+.top .title {
+  display: inline-block;
+  width: 220px;
+  height: 60px;
+  background: url(../../assets/img/about_page_title_content.svg);
+  margin-top: 28px;
+  margin-left: 20px;
+}
+#about_contact {
+  padding: 30px 0;
+  font-size: 14px;
+}
+#about_contact p {
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+#about_contact .title {
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+#about_contact p a {
+  padding: 0 5px;
+}
+.qiyu.chat {
+  cursor: pointer;
+}
+#about_contact .line {
+  border-top: 1px solid #ededed;
+  margin-bottom: 20px;
+}

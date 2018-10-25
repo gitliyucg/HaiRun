@@ -1,0 +1,60 @@
+/* You can add global styles to this file, and also import other style files */
+*{margin:0;
+  padding:0;
+  outline:hidden;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currentlynot supported by any browser */
+}
+html,body{height: 100%;font-size:62.5%;color:#666;background:#f6f6f6;font-family:Arial,'Microsoft Yahei',SimSun;-ms-user-select:none;min-width:1200px;}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,body,div,h1,h2,h3,h4,h5,h6,hr,p,blockquote,dl,dt,dd,ul,ol,li,pre,fieldset,legend,button,input,textarea,form,table,th,td,a,span,img{margin:0;padding:0;vertical-align:baseline}
+h1,h2,h3,h4,h5,h6{font-weight:normal;line-height:normal}
+ul,li,ol{list-style:none}
+p{display:block}
+em{font-style:normal}
+a,a:hover{text-decoration:none}
+a:link{text-decoration:none;}
+a:visited{text-decoration: none}
+a:hover{color:#cd0623!important;cursor: pointer}
+//a:active {text-decoration:none;}
+input:focus,textarea:focus{outline:none}
+.clear{clear:both}
+.clear::after{display:block;clear:both;content:"";width:0;height:0;overflow:hidden}
+/*----------------------------------------------------------------------------------------------------------------------*/
+a:hover{
+  .newsMainstitle,.movieInfoMainstitle,.movieMainstitle{
+    color:#cd0623
+  }
+}
+/*----------------------------------------------------------------------------------------------------------------------*/
+.content-body{
+  width: 1200px !important;
+  margin: 0 auto;
+}
+.marginTop{
+  padding-top: 60px;
+}
+.container{
+  width: 1200px;
+  max-width: none !important;
+}
+/* latin-ext */
+//@font-face {
+//  font-family: 'Lato';
+//  font-style: normal;
+//  font-weight: 900;
+//  src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh50XSwaPGR_p.woff2) format('woff2');
+//  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+//}
+///* latin */
+//@font-face {
+//  font-family: 'Lato';
+//  font-style: normal;
+//  font-weight: 900;
+//  src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v14/S6u9w4BMUTPHh50XSwiPGQ.woff2) format('woff2');
+//  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+//}
+
